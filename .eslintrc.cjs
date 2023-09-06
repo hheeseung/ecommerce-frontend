@@ -24,7 +24,10 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'import/no-absolute-path': 'off',
+    'import/no-extraneous-dependencies': 0,
     'no-console': 'warn',
+    'no-use-before-define': 0,
+    'no-shadow': 0,
     curly: 'error',
     eqeqeq: ['error', 'always'],
     '@typescript-eslint/no-unused-vars': [
